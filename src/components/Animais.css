@@ -1,0 +1,31 @@
+.animais{
+    text-align: center;
+    padding-block: 50px;
+    padding: 32px;
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    padding-inline: 5%;
+    /* background-color: #d9f7e9; */
+    position: relative;
+}
+
+.animais h3{
+    display: inline-block;
+    border-bottom: 4px solid;
+    font-size: 1.5rem;
+}
+
+.animais .container_card{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+
+.animais .input_color{
+    position: absolute;
+    right: 10%;
+}

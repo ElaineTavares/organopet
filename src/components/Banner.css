@@ -1,0 +1,50 @@
+.banner{
+    background-image: url('/images/banner_pets.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.banner .texto{
+    padding-top: 400px;
+}
+
+.banner h1{
+    font-size: 3rem;
+}
+
+.banner h2{
+    font-size: 2rem;
+
+}
+
+.heart{
+    color: red;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1116px){
+    .banner .texto{
+        padding-top: 150px;
+    }
+}
+
+
+@media (max-width: 621px){
+    .banner .texto{
+        padding-top: 50px;
+    }
+
+    .banner h1{
+        font-size: 1.5rem;
+    }
+    
+    .banner h2{
+        font-size: 1.5rem;
+    
+    }
+}

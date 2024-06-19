@@ -1,0 +1,15 @@
+.drop_down label{
+    display: block;
+    font-size: 2rem;
+}
+
+.drop_down select{
+    padding: 10px 20px;
+    width:100%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+}
+

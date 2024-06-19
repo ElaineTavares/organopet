@@ -1,0 +1,20 @@
+.campo_texto{
+    margin-bottom: 30px;
+}
+
+.campo_texto label{
+    display: block;
+    font-size: 2rem;
+}
+
+.campo_texto input{
+    padding: 10px 20px;
+    width:100%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.campo_texto input::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+}
